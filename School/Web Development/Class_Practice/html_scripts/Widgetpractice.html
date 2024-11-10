@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST"
+   enctype="multipart/form-data">
+   <p>
+      <label for="first">First name:</label>
+      <input type="text" id="first" name="first" placeholder="Text box">
+   </p>
+   <p>
+      <label for="last">Last name:</label>
+      <input type="text" id="last" name="last" placeholder="Text box">
+   <p>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" placeholder="Text area with 7 rows and 50 cols" rows="7" cols="50"></textarea>
+   </p>
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+   <p>
+      <label for="dob">Date of birth:</label>
+      <input type="date" name="dob" id="dob" required>
+   </p>
+   <p>
+      <label for="pin">Four digit PIN:</label>
+      <input type="text" name="pin" id="pin" maxlength="4" pattern="^\d{4}$"
+         title="Exactly 4 digits" required>
+   </p>
+   <p>
+      <label for="pickNum">Number between 1 and 10:</label>
+      <input type="number" name="pickNum" id="pickNum" min="1" max="10" required>
+   </p>
+   <p>
+      <label for="emailAddr">Email address:</label>
+      <input type="email" name="emailAddr" id="emailAddr" required>
+   </p>
+      
+   <input type="submit">
+</form>
+</body>
+</html>
