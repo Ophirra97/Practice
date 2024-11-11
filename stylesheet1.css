@@ -3,6 +3,7 @@ body {
    background-image: url("images/purpleclouds.jpg");
    background-size: auto;
    text-align: center;
+    background-position: ceneter;
 }
 
 h1, h2 {
